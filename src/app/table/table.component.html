@@ -1,0 +1,91 @@
+<div class="row">
+  <div class="col-md-4 col-sm-8">
+    <div class="py-4">
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+  </div>
+  <div class="col-md-8 col-sm-4 py-4">
+    <button class="btn btn-primary text-dark">Filter</button>
+    <div class="filter w-25 p-3 bg-light rounded-2 mt-2 shadow-sm ">
+      <form>
+        <label for="select">Status:</label>
+        <select id="select" class="form-select w-75" name="status">
+          <option auto value="Aproved">Aproved</option>
+          <option value="Pending">Pending</option>
+          <option selected value="In_process">In process</option>
+          <option value="Rejected">Rejected</option>
+        </select>
+        <div class="">
+
+        <section>
+          <div class="checkbox-group color1">
+            <input type="checkbox" name="checkbox-group1" id="checkbox1.1" value="checkbox1.1" checked>
+            <label for="checkbox1.1">checkbox 1</label>
+            <input type="checkbox" name="checkbox-group1" id="checkbox1.2" value="checkbox1.2">
+            <label for="checkbox1.2">checkbox 2</label>
+            <input type="checkbox" name="checkbox-group1" id="checkbox1.3" value="checkbox1.3">
+            <label for="checkbox1.3">checkbox 3</label>
+            <input type="checkbox" name="checkbox-group1" id="checkbox1.4" value="checkbox1.4">
+            <label for="checkbox1.4">checkbox 5</label>
+            <input type="checkbox" name="checkbox-group1" id="checkbox1.5" value="checkbox1.5">
+            <label for="checkbox1.5">checkbox 5</label>
+          </div>
+        </section>    
+        </div>    <button type="submit" class="btn btn-primary">
+
+          submit
+        </button>
+      </form>
+
+    </div>
+
+  </div>
+</div>
+<nav aria-label="Page navigation example" class="d-flex justify-content-end">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<table class="styled-table w-100 text-center">
+  <thead>
+    <tr>
+      <th class="text-center">Name</th>
+      <th class="text-center">Rate</th>
+      <th class="text-center">Type</th>
+      <th class="text-center">statue</th>
+      <th class="text-center">Company Website</th>
+      <th class="text-center">Contact Link</th>
+      <th class="text-center">controles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dom</td>
+      <td>6000</td>
+      <td>Dom</td>
+      <td>pending</td>
+      <td>6000 <a href=""> <i class='bx bx-link-external'></i></a></td>
+      <td>Dom <a href=""> <i class='bx bx-link-external'></i></a></td>
+      <td class="d-flex justify-content-center">
+        <span class="controlers d-flex justify-content-around w-50">
+          <i class='bx bx-show-alt' style='color:#039b20'></i>
+          <i class='bx bx-edit' style='color:#3074b0'></i>
+          <i class='bx bxs-trash' style='color:#ff0000'></i>
+        </span>
+      </td>
+    </tr>
+
+  </tbody>
+</table>

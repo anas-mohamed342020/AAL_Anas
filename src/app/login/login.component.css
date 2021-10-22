@@ -1,0 +1,14 @@
+::placeholder{
+    color: #DDDDDDDD;
+}
+.bg{
+    background-image: url(../../assets/images/bg.svg);
+    background-repeat: no-repeat;
+}
+.sec{
+    background-color: #f8f9fa99;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

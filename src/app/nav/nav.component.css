@@ -1,0 +1,9 @@
+#user{
+    cursor: pointer;
+}
+.navbar li{
+    cursor: pointer;
+}
+#nav-nav-person{
+    display: none;
+}
